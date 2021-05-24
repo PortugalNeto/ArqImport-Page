@@ -636,8 +636,6 @@ progress {
 .container-xl,
 .container-xxl {
     width: 100%;
-    padding-right: var(--bs-gutter-x, .75rem);
-    padding-left: var(--bs-gutter-x, .75rem);
     margin-right: auto;
     margin-left: auto
 }
@@ -10578,10 +10576,6 @@ fieldset:disabled .btn {
         margin-right: auto;
         margin-left: auto;
         position: fixed;
-    }
-    .myBackground {
-        background-image: C: \Users\paulo.neto\Documents\GitHub\ArqImport-Page\Workspace\img\background-image.jpeg;
-        color: white
     }
 }
 
