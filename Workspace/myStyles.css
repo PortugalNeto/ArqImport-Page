@@ -1,11 +1,65 @@
-h1 {
-    text-align: center;
-}
-
-.background {
+/* .background {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+} */
+
+#botoesPrincipais {
+    padding-left: 35%;
+}
+
+#container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('img/background-image-transparent-FHD.png');
+}
+
+#confirmar {
+    background-color: rgb(92, 92, 253);
+    color: white;
+    opacity: 85%;
+    border-radius: 15%;
+}
+
+body {
+    margin: 0;
+}
+
+#base {
+    position: relative;
+    left: 20px;
+    bottom: 15px;
+}
+
+#campos {
+    bottom: 40%;
+    align-content: center;
+}
+
+#formulario {
+    font-size: large;
+}
+
+label {
+    font-weight: bolder;
+}
+
+#rodape {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#rodape img {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+    /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
 }
 
 

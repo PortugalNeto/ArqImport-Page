@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -12,26 +12,47 @@
     <title>Página Inicial</title>
 </head>
 
-<body background="img/background-image.jpeg">
+<body>
 
-    <div style=" opacity: 80%; position: fixed; ">
+    <div style=" opacity: 95%; position: fixed; ">
         <img src="img/top-bar.png " alt="top-bar " class="container-fluid ">
     </div>
-    <div class="container-fluid" ">
-        <div class=" btn-group " role="group " aria-label="Basic outlined example ">
-        <button type="button " class="btn btn-outline-primary ">Página Inicial</button>
-        <button type="button " class="btn btn-outline-primary ">Listar Logs</button>
-        <button type="button " class="btn btn-outline-primary ">Gerar Relatórios</button>
+    <div id="container">
+        <div class="container-fluid" id="botoesPrincipais">
+            <div class=" btn-group " role=" group " aria-label=" Basic outlined example ">
+                <a href="index.html"><button type=" button " class=" btn btn-outline-primary ">Página
+                        Inicial</button></a>
+                <button type=" button " class=" btn btn-outline-primary ">Listar Logs</button>
+                <button type=" button " class=" btn btn-outline-primary ">Gerar Relatórios</button>
+            </div>
+        </div>
+        <div align="center">
+            <br>
+            <br>
+            <form action="/nothing" id="formulario">
+                <h3>SISTEMA DE IMPORTAÇÃO RADIX</h3>
+            </form>
+            <div id="campos">
+                <br>
+                <br>
+                <br>
+                <label for="origem">INSIRA O DIRETÓRIO DE ORIGEM - </label>
+                <input type="text" id="origem" placeholder=" \\10.144.63.24\" style="opacity: 70%; width: auto;">
+                <br>
+
+                <label for=" destino ">INSIRA O DIRETÓRIO DE DESTINO - </label>
+                <input type="text " id="destino " placeholder="\\10.144.0.143\" style="opacity: 70%; width: auto;">
+                <br>
+                <br>
+                <br>
+                <input type="submit" value="Confirmar" id="confirmar">
+            </div>
+        </div>
+        <div id="rodape" style=" opacity: 85%; position: fixed;">
+            <h6>Sistema de Bilhetagem Eletrônica - Radix</h6>
+            <img src="img/bottom-bar.png" alt="Barra inferior">
+        </div>
     </div>
-    </div>
-    <!-- <div>
-        <br>
-        <br>
-        <h1>Sistema de importação Radix</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <b>Ex ad optio</b> voluptatum fugit est vel deleniti veritatis rem, a eius laborum facere quo rerum repellendus qui natus molestiae quam aspernatur.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <b>Ex ad optio</b> voluptatum fugit est vel deleniti veritatis rem, a eius laborum facere quo rerum repellendus qui natus molestiae quam aspernatur.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <b>Ex ad optio</b> voluptatum fugit est vel deleniti veritatis rem, a eius laborum facere quo rerum repellendus qui natus molestiae quam aspernatur.</p>
-    </div> -->
 
 </body>
 
