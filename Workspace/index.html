@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="Pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="myStyles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="myStyles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Página Inicial</title>
-</head>
+        <title>Página Inicial</title>
+    </head>
 
-<body>
+    <body>
 
-    <div style=" opacity: 95%; position: fixed; ">
-        <img src="img/top-bar.png " alt="top-bar " class="container-fluid ">
-    </div>
-    <div id="container">
-        <div class="container-fluid" id="botoesPrincipais">
-            <div class=" btn-group " role=" group " aria-label=" Basic outlined example ">
-                <a href="index.html"><button type=" button " class=" btn btn-outline-primary ">Página
-                        Inicial</button></a>
-                <button type=" button " class=" btn btn-outline-primary ">Listar Logs</button>
-                <button type=" button " class=" btn btn-outline-primary ">Gerar Relatórios</button>
+        <div style=" opacity: 95%; position: fixed; ">
+            <img src="img/top-bar.png " alt="top-bar " class="container-fluid ">
+        </div>
+        <div id="container">
+            <div class="container-fluid" align="center">
+                <div class=" btn-group " role=" group " aria-label=" Basic outlined example ">
+                    <a href="index.html"><button type=" button " class=" btn btn-outline-primary ">Página
+                            Inicial</button></a>
+                    <button type=" button " class=" btn btn-outline-primary ">Listar Logs</button>
+                    <button type=" button " class=" btn btn-outline-primary ">Gerar Relatórios</button>
+                </div>
+            </div>
+            <div align="center" id="main">
+                <br>
+                <br>
+                <form action="/nothing" id="formulario">
+                    <h3>SISTEMA DE IMPORTAÇÃO RADIX</h3>
+                </form>
+                <div id="campos">
+                    <br>
+                    <br>
+                    <br>
+                    <label for="origem">INSIRA O DIRETÓRIO DE ORIGEM - </label>
+                    <input type="text" id="origem" placeholder=" \\10.144.63.24\" style="opacity: 70%; width: auto;">
+                    <br>
+
+                    <label for=" destino ">INSIRA O DIRETÓRIO DE DESTINO - </label>
+                    <input type="text " id="destino " placeholder="\\10.144.0.143\" style="opacity: 70%; width: auto;">
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit" value="Confirmar" id="confirmar">
+                </div>
+            </div>
+            <div id="rodape" style=" opacity: 85%; position: fixed;">
+                <h6>Sistema de Bilhetagem Eletrônica - Radix</h6>
+                <img src="img/bottom-bar.png" alt="Barra inferior">
             </div>
         </div>
-        <div align="center">
-            <br>
-            <br>
-            <form action="/nothing" id="formulario">
-                <h3>SISTEMA DE IMPORTAÇÃO RADIX</h3>
-            </form>
-            <div id="campos">
-                <br>
-                <br>
-                <br>
-                <label for="origem">INSIRA O DIRETÓRIO DE ORIGEM - </label>
-                <input type="text" id="origem" placeholder=" \\10.144.63.24\" style="opacity: 70%; width: auto;">
-                <br>
 
-                <label for=" destino ">INSIRA O DIRETÓRIO DE DESTINO - </label>
-                <input type="text " id="destino " placeholder="\\10.144.0.143\" style="opacity: 70%; width: auto;">
-                <br>
-                <br>
-                <br>
-                <input type="submit" value="Confirmar" id="confirmar">
-            </div>
-        </div>
-        <div id="rodape" style=" opacity: 85%; position: fixed;">
-            <h6>Sistema de Bilhetagem Eletrônica - Radix</h6>
-            <img src="img/bottom-bar.png" alt="Barra inferior">
-        </div>
-    </div>
-
-</body>
+    </body>
 
 </html>
